@@ -76,17 +76,13 @@ a:hover {
 .sidebar-header-content-svg svg {
   height: 40px;
   width: 40px;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .sidebar-header-svg.logo {
   height: 40px;
   width: 40px;
-  margin-bottom: 10px;
-}
-
-.home-svg {
-  border-left: 3px solid rgb(116, 206, 116);
+  margin: 10px 0;
 }
 
 .sidebar-header-content-span {
@@ -99,14 +95,14 @@ a:hover {
 
 .logo-big {
   display: none;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 /* sidebar nav/playlist */
 
 .sidebar-playlist {
   display: none;
-  padding: 20px 0;
+  padding: 10px;
   font-size: 1.5rem;
 }
 
@@ -137,7 +133,7 @@ a {
   width: 100%;
   justify-content: flex-start;
   align-items: center;
-  margin: 10px 0;
+  padding: 10px;
 }
 
 .sidebar-footer-content {
@@ -147,7 +143,9 @@ a {
 
 .sidebar-footer-divider {
   display: none;
-  border-bottom: 1px solid rgb(116, 116, 116);
+  height: 1px;
+  background-color: rgb(150, 150, 150);
+  width: 100%;
 }
 
 .sidebar-footer-span {
@@ -238,10 +236,16 @@ a {
   .sidebar-header-content-svg {
     display: flex;
     align-items: center;
+    padding-left: 10px;
   }
 
   .sidebar-footer {
     align-items: flex-start;
+  }
+
+  .sidebar-header-content-svg.home {
+    border-left: 3px solid rgb(116, 206, 116);
+    padding-left: 7px;
   }
 }
 
