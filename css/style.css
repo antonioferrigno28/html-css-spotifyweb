@@ -345,6 +345,63 @@ h2 {
   font-weight: bold;
 }
 
+.footer a {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-song-icons i:hover {
+  color: #ffffff;
+}
+
+.footer-settings-container {
+  justify-content: right;
+  padding: 10px;
+}
+
+.footer-settings-container i {
+  color: #ffffff;
+  padding: 0 5px;
+}
+
+.footer-settings-container > .progress-bar {
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 300px;
+  min-width: 20px;
+  height: 5px;
+  background-color: #585858;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.footer-settings-container > .progress-bar > .progress {
+  width: 10%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 3px;
+  position: relative;
+}
+
+.footer-settings-container > .progress-bar > .progress::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.footer-settings-container > .progress-bar:hover > .progress {
+  background-color: #9acd32;
+}
 /* most-popular-section */
 
 .most-popular-section img {
