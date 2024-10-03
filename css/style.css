@@ -83,10 +83,6 @@ a:hover {
   justify-content: space-between;
 }
 
-.sidebar:hover {
-  color: white;
-}
-
 .sidebar-header-content-svg svg {
   height: 35px;
   width: 35px;
@@ -157,6 +153,10 @@ a {
 .sidebar-footer-content {
   display: flex;
   align-items: center;
+}
+
+.sidebar-footer-content.sidebar-download:hover {
+  color: white;
 }
 
 .sidebar-footer-divider {
